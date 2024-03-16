@@ -43,7 +43,21 @@ const server = http.createServer((req, res) => {
             }
             res.end();
         });
-    } else {
+    }
+    else if (req.url === '/api/example') {
+        // data JSON
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        fs.readFile('./data.json', (error, data) => {
+            if (error) {
+                res.writeHead(404);
+                res.write('JSON File Not Found');
+            } else {
+                res.write(data);
+            }
+            res.end(); 
+        });
+    } 
+    else {
         // 404 html file
         res.writeHead(200, { 'Content-Type': 'text/html' });
         fs.readFile('./404S.html', (error, data) => {

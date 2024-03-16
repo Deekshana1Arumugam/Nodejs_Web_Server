@@ -12,3 +12,6 @@
 15.03.2024	17:51:05	30af25cc-86ba-4361-8e4f-5ba4561d23f7	Incoming request: GET /style.css
 15.03.2024	17:51:06	4ffb1b5d-f03f-477e-bd80-ea7c5ed9efbf	Incoming request: GET /
 15.03.2024	17:51:06	2e0df62c-153b-4351-9c57-b693f0472f42	Incoming request: GET /style.css
+16.03.2024	13:27:01	97f5cb72-a37f-457c-9b8f-772d33116314	Incoming request: GET /api/example
+16.03.2024	13:27:01	33644043-0d1a-40fa-bce2-c902a069edd2	Incoming request: GET /favicon.ico
+16.03.2024	13:30:22	0d9433ce-dff2-422b-b7a8-5bda83a11fff	Incoming request: GET /api/example
