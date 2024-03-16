@@ -1,0 +1,14 @@
+15032024	17:27:37	1c4adeab-2439-4fad-994d-b03d57c738c8	log Event Emitted
+15032024	17:27:55	905f37b8-6dec-4b0f-b156-640567d425db	Incoming request: GET /
+15032024	17:27:55	595f55fc-1475-42a4-b56a-e7e2fc09ebfb	Incoming request: GET /style.css
+15032024	17:28:52	ddb4c2f5-35a5-448e-a7da-d3e19548dc28	Incoming request: GET /new
+15032024	17:28:52	f4294425-1442-49a1-bc67-550177b03454	Incoming request: GET /style.css
+15032024	17:29:09	3507ead8-5963-4199-b936-0d99fd3d0f5a	Incoming request: GET /style.css
+15032024	17:47:32	d96c34c4-dc92-45bc-8acd-a315c0ba8816	Incoming request: GET /
+15032024	17:47:32	31fe5aed-c9a4-49a6-b447-d70426980ce0	Incoming request: GET /style.css
+15032024	17:49:28	ecd58a3f-471a-49a0-aaf0-dc1b8f62b4d5	Incoming request:  /
+15032024	17:49:28	bf416de2-4cbe-4819-bd2e-e38bc3040dd6	Incoming request:  /style.css
+15.03.2024	17:51:05	9eef1f32-687b-4ff5-8183-c9511bf158a9	Incoming request: GET /
+15.03.2024	17:51:05	30af25cc-86ba-4361-8e4f-5ba4561d23f7	Incoming request: GET /style.css
+15.03.2024	17:51:06	4ffb1b5d-f03f-477e-bd80-ea7c5ed9efbf	Incoming request: GET /
+15.03.2024	17:51:06	2e0df62c-153b-4351-9c57-b693f0472f42	Incoming request: GET /style.css
