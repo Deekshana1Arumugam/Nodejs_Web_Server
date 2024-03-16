@@ -57,6 +57,21 @@ const server = http.createServer((req, res) => {
             res.end(); 
         });
     } 
+    else if (req.url === '/image.jpg') {
+        // Image jpg
+        res.writeHead(200, { 'Content-Type': 'image/jpeg' });
+        fs.readFile('./img.jpg', (error, data) => {
+            if (error) {
+                res.writeHead(404);
+                res.write('Image File Not Found');
+            } else {
+                
+                res.write(data);
+            }
+            res.end();
+        });
+    }
+    
     else {
         // 404 html file
         res.writeHead(200, { 'Content-Type': 'text/html' });
